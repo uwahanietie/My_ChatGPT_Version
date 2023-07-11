@@ -91,7 +91,7 @@ loader(messageDiv);
 
 //This part has to deal with fetching the response from the server and being able to use the response in our application
 
-const response = await fetch('http://localhost:3000/',{
+const response = await fetch('https://uwah-chatgpt-app.onrender.com',{
  
     method:'POST',
     headers:{
